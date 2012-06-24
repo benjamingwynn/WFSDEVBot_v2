@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 oftn-bot
 ========
 
@@ -77,3 +78,9 @@ Additional Documentation
 
 This bot AND/OR bot library is still being developed, but those are some of the basic commands. Look at your-bot-here.js for a simple example of an IRC bot using this API, or ecmabot.js for a more complex and featured example.
 
+=======
+WFSDEVBot_v2
+============
+
+A pretty cool IRC bot
+>>>>>>> 00c9992a1246f2beb31842b5ecfc284e01fbfe1f
