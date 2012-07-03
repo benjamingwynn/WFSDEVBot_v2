@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-oftn-bot
+WFSDEVv2 bot - based on oftn-bot
+
+oftn-bot readme:
 ========
 
 This is the repository for both of the IRC bots oftn-bot (in #oftn on freenode) and ecmabot (in ##javascript on freenode). This was originally created as a replacement for v8bot (http://github.com/eisd/v8bot). Over time, it changed to include a full-featured IRC bot library.
