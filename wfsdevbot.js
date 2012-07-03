@@ -66,7 +66,7 @@ r_text[2] = "We have a website at wfsdev.net23.net";
 r_text[3] = "You can email benjamingwynn on behalf of the team at benjamin@gwynn.tk";
 r_text[4] = "Our old, disused IRC channel is #wfsdevteam";
 r_text[5] = "Our current website was built using wordpress";
-r_text[6] = "jill_has_a_hat is a sp@m bot";
+r_text[6] = "Henry hates this bot. Mainly because he is a grumpy old man.";
 r_text[7] = "There is a new ROM comming soon from WFSDEV that isn't sense 4.";
 r_text[8] = "You can type !about for information about the bot";
 r_text[9] = "There are 12 of these random things";
@@ -107,7 +107,7 @@ WFSDEVBot.prototype.cookie = function(cx, text) {
 // # Grettings
 
 WFSDEVBot.prototype.greeting = function(cx, text) {
-	cx.channel.send_reply (cx.sender, "Hi, welcome to #wfsdev - Please feel free to ask any questions?");
+	cx.channel.send_reply (cx.sender, "Hi, welcome to #wfsdev - Please feel free to ask any questions");
 };
 
 // # ETA
@@ -199,7 +199,7 @@ var profile = [{
 	nick: "WFSDEVBot_v2",
 	password: "",
 	user: "WFSDEVBot_v2",
-	real: "WFSDEV Teams IRC bot (version 2.0)",
+	real: "WFSDEV Teams IRC bot (version 3.0)",
 	channels: ["#wfsdev"]
 }];
 
