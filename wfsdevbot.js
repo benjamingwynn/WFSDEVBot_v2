@@ -89,7 +89,7 @@ cx.channel.send (r_text[i]);
 // # About
 
 WFSDEVBot.prototype.about = function(cx, text) {
-	cx.channel.send_reply (cx.sender, "WFSDEVBot v2 | Programmed by Benjamin Gwynn with help from eboy | All work is on github at http://kan.gd/1n0i");
+	cx.channel.send_reply (cx.sender, "WFSDEVBot v3 | Programmed by Benjamin Gwynn with help from eboy | All work is on github at http://kan.gd/1n0i");
 };
 
 // # Disabled command
@@ -196,9 +196,9 @@ WFSDEVBot.prototype.github = function(cx, username) {
 var profile = [{
 	host: "irc.freenode.net",
 	port: 6667,
-	nick: "WFSDEVBot_v2",
+	nick: "WFSDEVBot_v3",
 	password: "",
-	user: "WFSDEVBot_v2",
+	user: "WFSDEVBot_v3",
 	real: "WFSDEV Teams IRC bot (version 3.0)",
 	channels: ["#wfsdev"]
 }];
