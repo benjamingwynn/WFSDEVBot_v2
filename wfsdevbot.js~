@@ -31,7 +31,6 @@ WFSDEVBot.prototype.init = function() {
 	
 	this.register_command("powerdown", this.powerdown);
 	this.register_command("cookie", this.cookie);
-	this.register_command("oliverg96", this.oliverg96);
 	this.register_command("stfu", this.stfu);
 	this.register_command("logout", this.stfu);
 	this.register_command("projects", this.projects);
@@ -103,12 +102,6 @@ WFSDEVBot.prototype.disabledcmd = function(cx, text) {
 
 WFSDEVBot.prototype.cookie = function(cx, text) {
 	cx.channel.send_reply (cx.sender, "Your test worked. Have a cookie!");
-};
-
-// # Pretty OliverG96
-
-WFSDEVBot.prototype.oliverg96 = function(cx, text) {
-	cx.channel.send_reply (cx.sender, "OliverG96 is awesome!");
 };
 
 // # Grettings
